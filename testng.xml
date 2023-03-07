@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+
+    <listeners>
+        <listener class-name="com.master.listener.Listener" />
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="API Tests">
+        <classes>
+            <class name="com.master.tests.UsersOperations" />
+             <class name="com.master.tests.Activity" />
+             <class name="com.master.tests.QuoteOperations"/>
+           
+        </classes>
+    </test>
+
+   
+</suite>
