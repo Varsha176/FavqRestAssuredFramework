@@ -1,5 +1,5 @@
 
-# Project Title
+# Project
 
 Rest assured E2E Framework.
 
